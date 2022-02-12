@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+  font-family: 'Playfair Display', serif;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #f4f3ee;
+}
+
+nav{
+  background-color: #f4f4f9;
+}
+
+.navbar-nav{
+  font-size: 18px;
+}
+
+.logo{
+  background-color: #faf9fa;
+  padding: 20px;
+}
+
+.logo a{
+  color: aliceblue;
+}
+
+  .si{
+    margin-top: 7px;
+    margin-right: 15px;
+    font-size: 23px;
+  } 
+
+  .bi-instagram{
+    color: #ff3b3f;
+  }
+  .bi-instagram:hover{
+    color: white;
+  }
+  .bi-envelope{
+    color: #fbb83c;
+  }
+  .bi-envelope:hover{
+    color: white;
+  }
+  
+  .bi-linkedin{
+    color: rgb(46, 46, 255);
+  }
+  .bi-linkedin:hover{
+    color: white;
+  }
+
+  .bi-whatsapp{
+    color: rgb(15, 228, 15);
+  }
+  .bi-whatsapp:hover{
+    color: white;
+  }
+
+  .jumbotron{
+    margin-top: 80px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #00171f;
+  }
+  .projects{
+    margin-top: 80px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #f4f3ee;
+  }
+  .contact{
+    margin-top: 80px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #f4f3ee;
+  }
+  .img-fluid{
+      width: 290px;
+      height: 290px;
+      object-fit: cover;
+      border-radius: 50%;
+      border-color: #ffffff;
+      border-width: 8px;
+      border-style: solid;
+      object-fit: cover;
+  }
+
+  .underline{
+    display: inline-block;
+    position: relative;
+  }
+  .underline::before{
+    content: "";
+    position: absolute;
+    left: 66%;
+    width: 35%;
+    height: 4px;
+    background-color: #ffcf31;
+    top: 100%;
+  }
+  .unders{
+    display: inline-block;
+    position: relative;
+  }
+  .unders::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #ffcf31;
+    top: 110%;
+  }
+  .undersa{
+    position: relative;
+  }
+  .undersa::before{
+    content: "";
+    position: absolute;
+    width: 35%;
+    height: 4px;
+    background-color: #ffcf31;
+    top: 110%;
+  }
+
+  #projects{
+    margin-top: 100px;
+  }
+
+  .cardContact{
+    border-radius: 20px; 
+    width: 60%;
+    margin: auto; 
+    background-color: #252328;
+  }
+
+  .right-text{
+    background-color: #f0e6b5; 
+    border-radius: 10px;
+  }
+
+  @media screen and (max-width: 868px) {
+    .cardContact{
+      border-radius: 10px;
+      width: 95%;
+    }
+  }
